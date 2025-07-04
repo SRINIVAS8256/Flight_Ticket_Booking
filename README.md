@@ -16,7 +16,7 @@ Pricing & Discounts
     User age >= 60	Apply 10% discount
     Student Apply 5% discount
 
- Suggested Rules/Validations to Include
+Suggested Rules/Validations to Include
     Cannot book more than 6 seats per user
     Cannot book past-date flights
     Show confirmation before payment
