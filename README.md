@@ -1,5 +1,5 @@
 # Flight_Ticket_Booking
-Every flight has:<br>
+<B>Every flight has:</B><br>
     Flight Number (unique)<br>
     Source & Destination<br>
     Date & Time (must be in future)<br>
@@ -7,16 +7,16 @@ Every flight has:<br>
     Flights of previous date should not been displayed for the user entered date.<br>
 
 
-Seat Booking Rules<br>
+<B>Seat Booking Rules</B><br>
     Don’t allow the same user to book the same flight twice<br>
     Price increases as seats get filled (ex: +10% every 20 seats)<br>
     Seat classes (optional)	Economy, Business, First Class (different price levels)<br>
 
-Pricing & Discounts<br>
+<B>Pricing & Discounts</B><br>
     User age >= 60	Apply 10% discount<br>
     Student Apply 5% discount<br>
 
-Suggested Rules/Validations to Include<br>
+<B>Suggested Rules/Validations to Include</B><br>
     Cannot book more than 6 seats per user<br>
     Cannot book past-date flights<br>
     Show confirmation before payment<br>
@@ -27,7 +27,7 @@ Suggested Rules/Validations to Include<br>
 
 
 # Advanced option 
-Admin Functionality (Optional)<br>
+<B>Admin Functionality (Optional)</B><br>
     Add new flights<br>
     Update existing flights<br>
     Cancel flights<br>
@@ -36,18 +36,18 @@ Admin Functionality (Optional)<br>
 <br><br>
 
 
-Add things to a database<br> 
-    Python handles:<br>
+<B>Add things to a database</B><br> 
+    <B>Python handles:</B><br>
         User inputs<br>
         Booking logic<br>
         Validation<br>
         Business rules (max seats, price, etc.)<br>
-    SQL is Your Database<br>
+    <B>SQL is Your Database</B><br>
         SQL stores:<br>
         Users<br>
         Flights<br>
 
-Bookings<br>
+<B>Bookings<B><br>
     Seat availability<br>
     Prices<br>
 
