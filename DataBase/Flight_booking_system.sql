@@ -3,8 +3,8 @@ USE FLIGHT_BOOKING;
                                      /*#USER*/
 /*Login and signin*/
 CREATE TABLE Login_Signin (
-	 User_name  varchar(20),
-     User_email varchar(20) unique,
+	 User_name  varchar(50),
+     User_email varchar(50) unique,
      User_mob   varchar(10) unique,
      User_pass  varchar(15) 
 );
