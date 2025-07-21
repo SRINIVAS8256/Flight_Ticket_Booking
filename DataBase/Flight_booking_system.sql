@@ -8,9 +8,14 @@ CREATE TABLE Login_Signin (
      User_mob   varchar(10) unique,
      User_pass  varchar(15) 
 );
-/*select * from Login_Signin;*/
+/*     select * from Flight;    */
 									/*#ADMIN*/
 /* Flight table*/
+
+CREATE TABLE Admin_login(
+     Admin_id varchar(10) primary key,
+     Admin_pass varchar(20)
+);
 CREATE TABLE Flight(
      Flight_number varchar(10) primary key,
      Flight_name varchar(30),

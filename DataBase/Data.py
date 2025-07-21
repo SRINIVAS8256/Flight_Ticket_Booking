@@ -14,8 +14,10 @@ class DataOperation:
                     self.var.commit()                    
                 except mysql.connector.errors.IntegrityError:
                     print("You have already Registered.")     
-                # except mysql.connector.errors.DataError:
-                #     print("your entered huge data")           
+                except mysql.connector.errors.DataError:
+                    print("your entered huge data")    
+                except mysql.connector.errors.InternalError:
+                    print("Data not found")           
     def insert_data(self,data_in):               
                 self.insert = self.cur.execute(data_in)
                 self.var.commit()
