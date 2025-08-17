@@ -15,4 +15,4 @@ def admin():
     # sql = "insert into Admin_login value(%s, %s)" # add admin user
     data.insert_data_params(sql,(input1, input2))
     a = 1
-a = admin()    
+# a = admin()     
